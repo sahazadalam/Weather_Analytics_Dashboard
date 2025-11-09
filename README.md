@@ -62,40 +62,7 @@ Weather API - Real-time weather data integration
 
 Google OAuth - Secure authentication system
 
-📁 Project Structure
 
-weather-dashboard/
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-├── src/
-│   ├── components/
-│   │   ├── WeatherCard.js
-│   │   ├── SearchBar.js
-│   │   ├── TemperatureChart.js
-│   │   ├── WeatherModal.js
-│   │   ├── Login.js              # - Google Sign-in component
-│   │   └── UserProfile.js        #  - User profile with logout
-│   ├── store/
-│   │   ├── store.js
-│   │   ├── weatherSlice.js       #  - Added caching & real-time features
-│   │   ├── favoritesSlice.js
-│   │   └── authSlice.js          #  - Authentication state management
-│   ├── hooks/
-│   │   └── useRealTimeWeather.js # - Custom hook for real-time data
-│   ├── firebase/
-│   │   └── config.js             #  - Firebase configuration
-│   ├── App.js                    #  - Added auth & real-time features
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-├── package.json                  # UPDATED - Added new dependencies
-├── package-lock.json
-└── README.md
 
 
 🎯 Key Features in Detail
@@ -270,7 +237,7 @@ Submit a pull request
 This project is open source and available under the MIT License.
 
 👨‍💻 Author
-Sahazad Alam Ansari
+Sahazad Alam Ansiri
 
 GitHub: @sahazadalam
 
